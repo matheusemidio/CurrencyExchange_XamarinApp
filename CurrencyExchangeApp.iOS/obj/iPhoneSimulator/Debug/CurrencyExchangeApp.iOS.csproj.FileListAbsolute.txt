@@ -1,0 +1,74 @@
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.exe
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.pdb
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Extensions.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/System.Net.Http.Primitives.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/Newtonsoft.Json.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/SQLite-net.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.batteries_v2.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.nativelibrary.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.core.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/System.Buffers.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/System.Memory.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/System.Runtime.CompilerServices.Unsafe.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Essentials.pdb
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.pdb
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/ar/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/ca/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/cs/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/da/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/de/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/el/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/es/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/fi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/fr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/he/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/hi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/hr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/hu/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/id/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/it/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/ja/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/ko/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/ms/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/nb/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/nl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/pl/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/pt/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/ro/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/ru/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/sk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/sv/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/th/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/tr/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/uk/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/vi/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/CurrencyExchangeApp.dll
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/CurrencyExchangeApp.pdb
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.csproj.AssemblyReference.cache
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.csproj.CoreCompileInputs.cache
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.csproj.CopyComplete
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.exe
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.pdb
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/actool/_PartialAppManifest.items
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/actool/_BundleResourceWithLogicalName.items
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/actool/_ProcessedImageAssetsPath.items
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/ibtool/_ProcessedInterfaceDefinitionsPath.items
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/coremlc/_PartialAppManifest.items
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/coremlc/_ProcessedCoreMLModelsPath.items
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/_ProcessedBundleResourcesPath.items
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/_ProcessedContentPath.items
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/optimized/

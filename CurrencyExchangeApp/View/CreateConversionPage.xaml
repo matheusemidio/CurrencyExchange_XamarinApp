@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CurrencyExchangeApp.View.CreateConversionPage">
+      <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!--Mark: Title of the Screen-->
+        <BoxView Grid.Row="1"
+                 Grid.ColumnSpan="2"
+                 Color="LightBlue" />
+        <Label Grid.Row="1"
+               Grid.ColumnSpan="2"
+               Text="Make your conversion" FontSize="Title" FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        
+       
+        <!--Mark: Currencies-->
+        <BoxView Grid.Row="2"
+                 Color="White"
+                 Grid.Column="0"
+                 />
+        <ListView WidthRequest="200"
+                  Grid.Column="0"
+                  x:Name="lvCurrencyFrom"
+                  HeightRequest="200"
+                  ItemSelected="lvCurrencyFrom_ItemSelected"
+                  Grid.Row="2"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"
+                  BackgroundColor="LightBlue"
+                  >
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <TextCell Text="{Binding }"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <BoxView Grid.Row="2"
+                 Grid.Column="1"
+                 Color="White" />
+        <ListView WidthRequest="200"
+                  Grid.Column="1"
+                  x:Name="lvCurrencyTo"
+                  HeightRequest="200"
+                  ItemSelected="lvCurrencyTo_ItemSelected"
+                  Grid.Row="2"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"
+                  BackgroundColor="LightBlue"
+                  >
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <TextCell Text="{Binding }"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <!--Mark: Entries-->
+        <BoxView Grid.Row="3"
+                 Color="White" />
+        <Label Grid.Row="3"
+               Text="" WidthRequest="150" x:Name="txtCurrencyFrom" FontSize="Large" FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               BackgroundColor="LightGray"
+               />
+        <BoxView Grid.Row="3"
+                 Grid.Column="1"
+                 Color="White" />
+          <Label Grid.Row="3"
+                 Grid.Column="1"
+               Text="" WidthRequest="150" x:Name="txtCurrencyTo" FontSize="Large" FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               BackgroundColor="LightGray"
+                 />
+
+      
+        <!--Mark: Buttons-->
+        <BoxView Grid.Row="6"
+                 Color="White" />
+         <Button Grid.Row="6"
+                Grid.Column="0"
+               Text="Convert"
+                Clicked="btnConvert_clicked"
+                FontSize="Large" FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               BackgroundColor="Green"
+               TextColor="White"
+               WidthRequest="200"
+                /> 
+        <BoxView Grid.Row="6"
+                 Grid.Column="1"
+                 Color="White" />
+        <Button Grid.Row="6"
+                Grid.Column="1"
+                Clicked="btnList_clicked"
+                Text="List Conversions" FontSize="Large" FontAttributes="Bold"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                BackgroundColor="Orange"
+                TextColor="White"
+                WidthRequest="200"
+                        />
+    </Grid>
+</ContentPage>

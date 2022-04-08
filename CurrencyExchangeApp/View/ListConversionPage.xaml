@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CurrencyExchangeApp.View.ListConversionPage">
+       <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!--Mark: Title of the Screen-->
+        <BoxView Grid.Row="1"
+                 Grid.ColumnSpan="2"
+                 Color="LightBlue" />
+        <Label Grid.Row="1"
+               Grid.ColumnSpan="2"
+               Text="List of Conversions" FontSize="Title" FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        
+       
+        <!--Mark: Currencies-->
+        <BoxView Grid.Row="2"
+                 Color="White"
+                 Grid.ColumnSpan="2"/>
+        <ListView WidthRequest="300"
+                  Grid.ColumnSpan="2"
+                  x:Name="lvCurrencies"
+                  HeightRequest="200"
+                  Grid.Row="2"
+                  HorizontalOptions="Center"
+                  VerticalOptions="Center"
+                  BackgroundColor="LightBlue"
+                  >
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <TextCell Text="{Binding }"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        
+
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CurrencyExchangeApp.View.SignUpPage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!--Mark: Title of the Screen-->
+        <BoxView Grid.Row="1"
+                 Grid.ColumnSpan="2"
+                 Color="LightBlue" />
+        <Label Grid.Row="1"
+               Grid.ColumnSpan="2"
+               Text="Sign Up" FontSize="Title" FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        
+       
+        <!--Mark: First Name-->
+        <BoxView Grid.Row="2"
+                 Color="White" />
+        <Label Grid.Row="2"
+               Text="First Name" FontSize="Large" FontAttributes="Bold"
+               HorizontalOptions="Center"
+              VerticalOptions="Center" />
+        <BoxView Grid.Row="2"
+                 Grid.Column="1"
+                 Color="White" />
+        <Entry Grid.Row="2"
+               Grid.Column="1"
+               x:Name="firstNameEntry"
+               BackgroundColor="LightGray"
+               Placeholder=""
+               FontSize="Medium" FontAttributes="Bold"
+               HorizontalOptions="StartAndExpand"
+               WidthRequest="200"
+               VerticalOptions="Center" />
+
+        <!--Mark: Last Name-->
+        <BoxView Grid.Row="3"
+                 Color="White" />
+        <Label Grid.Row="3"
+               Text="Last Name" FontSize="Large" FontAttributes="Bold"
+               HorizontalOptions="Center"
+              VerticalOptions="Center" />
+        <BoxView Grid.Row="3"
+                 Grid.Column="1"
+                 Color="White" />
+        <Entry Grid.Row="3"
+               Grid.Column="1"
+               x:Name="lastNameEntry"
+               BackgroundColor="LightGray"
+               Placeholder=""
+               FontSize="Medium" FontAttributes="Bold"
+               HorizontalOptions="StartAndExpand"
+               WidthRequest="200"
+               VerticalOptions="Center" />
+
+        
+        <!--Mark: Email-->
+        <BoxView Grid.Row="4"
+                 Color="White" />
+        <Label Grid.Row="4"
+               Text="Email" FontSize="Large" FontAttributes="Bold"
+               HorizontalOptions="Center"
+              VerticalOptions="Center" />
+        <BoxView Grid.Row="4"
+                 Grid.Column="1"
+                 Color="White" />
+        <Entry Grid.Row="4"
+               Grid.Column="1"
+               x:Name="emailEntry"
+               BackgroundColor="LightGray"
+               Placeholder="matheus@me.com"
+               FontSize="Medium" FontAttributes="Bold"
+               HorizontalOptions="StartAndExpand"
+               WidthRequest="200"
+               VerticalOptions="Center" />
+
+
+        <!--Mark: Password-->
+        <BoxView Grid.Row="5"
+                 Color="White" />
+        <Label Grid.Row="5"
+               Text="Password" FontSize="Large" FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center" />
+        <BoxView Grid.Row="5"
+                 Grid.Column="1"
+                 Color="White" />
+        <Entry Grid.Row="5"
+               Grid.Column="1"
+               x:Name="passwordEntry"
+               IsPassword="True"
+               FontSize="Medium" FontAttributes="Bold"
+               HorizontalOptions="StartAndExpand"
+               WidthRequest="200"
+               BackgroundColor="LightGray"
+               Placeholder="password"
+               VerticalOptions="Center" />
+
+        <!--Mark: Buttons-->
+        <BoxView Grid.Row="7"
+                 Color="White" />
+        <Button Grid.Row="7"
+                Grid.ColumnSpan="2"
+               Text="Register"
+                Clicked="btnRegister_clicked"
+                FontSize="Large" FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               BackgroundColor="Green"
+               TextColor="White"
+               WidthRequest="150"
+                />        
+    </Grid>
+</ContentPage>

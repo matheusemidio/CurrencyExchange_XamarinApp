@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/CurrencyExchangeApp.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/CurrencyExchangeApp.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/CurrencyExchangeApp.iOS.csproj",
+        "projectName": "CurrencyExchangeApp.iOS",
+        "projectPath": "/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/CurrencyExchangeApp.iOS.csproj",
+        "packagesPath": "/Users/matheuscadena/.nuget/packages/",
+        "outputPath": "/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/matheuscadena/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/CurrencyExchangeApp.csproj": {
+                "projectPath": "/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/CurrencyExchangeApp.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/CurrencyExchangeApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/CurrencyExchangeApp.csproj",
+        "projectName": "CurrencyExchangeApp",
+        "projectPath": "/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/CurrencyExchangeApp.csproj",
+        "packagesPath": "/Users/matheuscadena/.nuget/packages/",
+        "outputPath": "/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/matheuscadena/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.103/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
