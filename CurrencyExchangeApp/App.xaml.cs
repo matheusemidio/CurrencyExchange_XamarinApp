@@ -11,7 +11,7 @@ namespace CurrencyExchangeApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new LoginPage());
+            MainPage = new NavigationPage(new CreateConversionPage());
         }
 
         protected override void OnStart()

@@ -12,6 +12,7 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
 
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -38,9 +39,10 @@
         <ListView WidthRequest="200"
                   Grid.Column="0"
                   x:Name="lvCurrencyFrom"
-                  HeightRequest="200"
+                  HeightRequest="500"
                   ItemSelected="lvCurrencyFrom_ItemSelected"
                   Grid.Row="2"
+                  Grid.RowSpan="3"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"
                   BackgroundColor="LightBlue"
@@ -58,9 +60,10 @@
         <ListView WidthRequest="200"
                   Grid.Column="1"
                   x:Name="lvCurrencyTo"
-                  HeightRequest="200"
+                  HeightRequest="500"
                   ItemSelected="lvCurrencyTo_ItemSelected"
                   Grid.Row="2"
+                  Grid.RowSpan="3"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"
                   BackgroundColor="LightBlue"
@@ -72,31 +75,71 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <!--Mark: Entries-->
-        <BoxView Grid.Row="3"
+        <!--Mark: Labels-->
+        <BoxView Grid.Row="5"
                  Color="White" />
-        <Label Grid.Row="3"
-               Text="" WidthRequest="150" x:Name="txtCurrencyFrom" FontSize="Large" FontAttributes="Bold"
+           <Label
+               Grid.Row="5"
+               Grid.Column="0"
+               Text="From"
+               WidthRequest="100"
+               x:Name="txtCurrencyTo"
+               FontSize="Large" FontAttributes="Bold"
+               HorizontalOptions="StartAndExpand"
+               VerticalOptions="Center"
+                 />
+        <Label Grid.Row="5"
+               Text=" " WidthRequest="100"
+               x:Name="txtCurrencyFrom"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalOptions="CenterAndExpand"
+               VerticalOptions="Center"
+               BackgroundColor="LightGray"
+               />
+        <BoxView
+            Grid.Row="5"
+            Grid.Column="1"
+            Color="White" />
+          <Label
+              Grid.Row="5"
+              Grid.Column="1"
+              Text="To" WidthRequest="150"
+              x:Name="txtCurrencyTo"
+              FontSize="Large" FontAttributes="Bold"
+              HorizontalOptions="StartAndExpand"
+              VerticalOptions="Center"
+                 />
+          <Label
+              Grid.Row="5"
+              Grid.Column="1"
+              Text=" "
+              WidthRequest="100"
+              x:Name="txtCurrencyTo"
+              FontSize="Large"
+              FontAttributes="Bold"
+              HorizontalOptions="Center"
+              VerticalOptions="Center"
+              BackgroundColor="LightGray"
+                 />
+
+
+          <!--Mark: Value Entry-->
+        <BoxView Grid.Row="6"
+                 Color="White" />
+        <Entry Grid.Row="6"
+               Grid.ColumnSpan="2"
+               Placeholder="Value"
+               Text="" WidthRequest="150" x:Name="txtValue" FontSize="Large" FontAttributes="Bold"
                HorizontalOptions="Center"
                VerticalOptions="Center"
                BackgroundColor="LightGray"
                />
-        <BoxView Grid.Row="3"
-                 Grid.Column="1"
-                 Color="White" />
-          <Label Grid.Row="3"
-                 Grid.Column="1"
-               Text="" WidthRequest="150" x:Name="txtCurrencyTo" FontSize="Large" FontAttributes="Bold"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"
-               BackgroundColor="LightGray"
-                 />
 
-      
         <!--Mark: Buttons-->
-        <BoxView Grid.Row="6"
+        <BoxView Grid.Row="7"
                  Color="White" />
-         <Button Grid.Row="6"
+         <Button Grid.Row="7"
                 Grid.Column="0"
                Text="Convert"
                 Clicked="btnConvert_clicked"
@@ -107,10 +150,10 @@
                TextColor="White"
                WidthRequest="200"
                 /> 
-        <BoxView Grid.Row="6"
+        <BoxView Grid.Row="7"
                  Grid.Column="1"
                  Color="White" />
-        <Button Grid.Row="6"
+        <Button Grid.Row="7"
                 Grid.Column="1"
                 Clicked="btnList_clicked"
                 Text="List Conversions" FontSize="Large" FontAttributes="Bold"
