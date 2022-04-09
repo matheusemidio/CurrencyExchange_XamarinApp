@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 using Foundation;
@@ -24,6 +25,14 @@ namespace CurrencyExchangeApp.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            //Create a path for DB
+            string dName = "mydb.sqlite";
+            string folderPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "..", "Library");
+            string databaseLocationPath = Path.Combine(folderPath, dName);
+
+
+            LoadApplication(new App(databaseLocationPath));
 
             return base.FinishedLaunching(app, options);
         }

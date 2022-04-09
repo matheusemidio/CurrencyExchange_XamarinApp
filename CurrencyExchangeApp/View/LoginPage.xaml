@@ -50,7 +50,9 @@
                FontSize="Medium" FontAttributes="Bold"
                HorizontalOptions="StartAndExpand"
                WidthRequest="200"
-               VerticalOptions="Center" />
+               VerticalOptions="Center"
+               TextTransform="Lowercase"
+               />
 
         <!--Mark: Password-->
         <BoxView Grid.Row="3"

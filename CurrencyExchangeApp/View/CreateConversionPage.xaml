@@ -13,6 +13,7 @@
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
 
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
@@ -30,9 +31,37 @@
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         
-       
-        <!--Mark: Currencies-->
+                 
+          <!--Mark: Search Entries-->
         <BoxView Grid.Row="2"
+                 Color="White" />
+        <Entry Grid.Row="2"
+               Grid.Column="0"
+               Placeholder="Search"
+               Text="" WidthRequest="150"
+               x:Name="txtSearchFrom"
+               FontSize="Large"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               BackgroundColor="LightGray"
+               TextChanged="txtSearchFrom_TextChanged"
+
+               />
+        <BoxView Grid.Row="2"
+                 Color="White" />
+        <Entry Grid.Row="2"
+               Grid.Column="1"
+               Placeholder="Search"
+               Text="" WidthRequest="150" x:Name="txtSearchTo" FontSize="Large" FontAttributes="Bold"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               BackgroundColor="LightGray"
+               TextChanged="txtSearchTo_TextChanged"
+               />
+
+        <!--Mark: Currencies-->
+        <BoxView Grid.Row="3"
                  Color="White"
                  Grid.Column="0"
                  />
@@ -41,7 +70,7 @@
                   x:Name="lvCurrencyFrom"
                   HeightRequest="500"
                   ItemSelected="lvCurrencyFrom_ItemSelected"
-                  Grid.Row="2"
+                  Grid.Row="3"
                   Grid.RowSpan="3"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"
@@ -54,7 +83,7 @@
             </ListView.ItemTemplate>
         </ListView>
 
-        <BoxView Grid.Row="2"
+        <BoxView Grid.Row="3"
                  Grid.Column="1"
                  Color="White" />
         <ListView WidthRequest="200"
@@ -62,7 +91,7 @@
                   x:Name="lvCurrencyTo"
                   HeightRequest="500"
                   ItemSelected="lvCurrencyTo_ItemSelected"
-                  Grid.Row="2"
+                  Grid.Row="3"
                   Grid.RowSpan="3"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"
@@ -75,20 +104,21 @@
             </ListView.ItemTemplate>
         </ListView>
 
+
+
         <!--Mark: Labels-->
-        <BoxView Grid.Row="5"
+        <BoxView Grid.Row="6"
                  Color="White" />
            <Label
-               Grid.Row="5"
+               Grid.Row="6"
                Grid.Column="0"
                Text="From"
                WidthRequest="100"
-               x:Name="txtCurrencyTo"
                FontSize="Large" FontAttributes="Bold"
                HorizontalOptions="StartAndExpand"
                VerticalOptions="Center"
                  />
-        <Label Grid.Row="5"
+        <Label Grid.Row="6"
                Text=" " WidthRequest="100"
                x:Name="txtCurrencyFrom"
                FontSize="Large"
@@ -98,20 +128,19 @@
                BackgroundColor="LightGray"
                />
         <BoxView
-            Grid.Row="5"
+            Grid.Row="6"
             Grid.Column="1"
             Color="White" />
           <Label
-              Grid.Row="5"
+              Grid.Row="6"
               Grid.Column="1"
               Text="To" WidthRequest="150"
-              x:Name="txtCurrencyTo"
               FontSize="Large" FontAttributes="Bold"
               HorizontalOptions="StartAndExpand"
               VerticalOptions="Center"
                  />
           <Label
-              Grid.Row="5"
+              Grid.Row="6"
               Grid.Column="1"
               Text=" "
               WidthRequest="100"
@@ -125,9 +154,9 @@
 
 
           <!--Mark: Value Entry-->
-        <BoxView Grid.Row="6"
+        <BoxView Grid.Row="7"
                  Color="White" />
-        <Entry Grid.Row="6"
+        <Entry Grid.Row="7"
                Grid.ColumnSpan="2"
                Placeholder="Value"
                Text="" WidthRequest="150" x:Name="txtValue" FontSize="Large" FontAttributes="Bold"
@@ -137,9 +166,9 @@
                />
 
         <!--Mark: Buttons-->
-        <BoxView Grid.Row="7"
+        <BoxView Grid.Row="8"
                  Color="White" />
-         <Button Grid.Row="7"
+         <Button Grid.Row="8"
                 Grid.Column="0"
                Text="Convert"
                 Clicked="btnConvert_clicked"
@@ -150,10 +179,10 @@
                TextColor="White"
                WidthRequest="200"
                 /> 
-        <BoxView Grid.Row="7"
+        <BoxView Grid.Row="8"
                  Grid.Column="1"
                  Color="White" />
-        <Button Grid.Row="7"
+        <Button Grid.Row="8"
                 Grid.Column="1"
                 Clicked="btnList_clicked"
                 Text="List Conversions" FontSize="Large" FontAttributes="Bold"
