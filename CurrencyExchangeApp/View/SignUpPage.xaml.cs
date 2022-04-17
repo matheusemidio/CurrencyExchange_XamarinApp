@@ -36,7 +36,7 @@ namespace CurrencyExchangeApp.View
                     conn.CreateTable<User>();
                     var data = conn.Table<User>();
                     var row = data.Where(x => x.Email == emailEntry.Text);
-                    if (row != null)
+                    if (row.Count() > 0)
                     {
                         DisplayAlert("Failed", "This email is already being used.", "Ok");
                     }

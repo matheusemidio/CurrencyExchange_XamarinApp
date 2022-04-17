@@ -2,11 +2,11 @@
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/bin/Debug/netstandard2.0/CurrencyExchangeApp.dll
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/bin/Debug/netstandard2.0/ref/CurrencyExchangeApp.dll
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/bin/Debug/netstandard2.0/CurrencyExchangeApp.pdb
-/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/CurrencyExchangeApp.csproj.AssemblyReference.cache
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/CurrencyExchangeApp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/App.xaml.g.cs
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/View/CreateConversionPage.xaml.g.cs
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/View/HomePage.xaml.g.cs
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/View/ListConversionPage.xaml.g.cs
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/View/LoginPage.xaml.g.cs
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/View/ProfilePage.xaml.g.cs
@@ -18,4 +18,4 @@
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/CurrencyExchangeApp.dll
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/ref/CurrencyExchangeApp.dll
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/CurrencyExchangeApp.pdb
-/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/View/HomePage.xaml.g.cs
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp/obj/Debug/netstandard2.0/CurrencyExchangeApp.csproj.AssemblyReference.cache

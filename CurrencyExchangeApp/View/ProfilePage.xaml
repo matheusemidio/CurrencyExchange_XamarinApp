@@ -107,7 +107,6 @@
         <Entry Grid.Row="5"
                Grid.Column="1"
                x:Name="passwordEntry"
-               IsPassword="True"
                FontSize="Medium" FontAttributes="Bold"
                HorizontalOptions="StartAndExpand"
                WidthRequest="200"

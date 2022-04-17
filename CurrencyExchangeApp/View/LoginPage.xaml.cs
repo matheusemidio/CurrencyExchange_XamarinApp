@@ -5,6 +5,7 @@ using CurrencyExchangeApp.View;
 using SQLite;
 using Xamarin.Forms;
 
+
 namespace CurrencyExchangeApp
 {
     public partial class LoginPage : ContentPage
@@ -21,32 +22,57 @@ namespace CurrencyExchangeApp
 
         void btnLogin_clicked(System.Object sender, System.EventArgs e)
         {
-            User user = new User()
+            if (emailEntry.Text == null || passwordEntry.Text == null)
             {
-                Email = emailEntry.Text,
-                Password = passwordEntry.Text
+                DisplayAlert("Error", "Fields can not be empty", "Ok");
 
-            };
-            using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
+
+            }
+            else
             {
-                //conn.CreateTable<User>();
-
-                var data = conn.Table<User>();
-                var row = data.Where(x=> x.Email == emailEntry.Text && x.Password == passwordEntry.Text);
-                //User aUser = conn.Find(user.Email);
-                if (row != null)
+                User user = new User()
                 {
-                    DisplayAlert("Success", "Login Success", "Ok");
-                    emailEntry.Text = "";
-                    passwordEntry.Text = "";
+                    Email = emailEntry.Text,
+                    Password = passwordEntry.Text
 
-                    Navigation.PushAsync(new HomePage());
-                }
-                else
+                };
+                using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
                 {
-                    DisplayAlert("Failed", "Email or Password invalid", "Ok");
+                    //conn.CreateTable<User>();
+
+                    //matheus@me.com
+                    //123
+
+                    var data = conn.Table<User>();
+                    List<User> listOfUsers = data.ToList();
+                    bool isCorrectCredentials = false;
+                    foreach (User aUser in listOfUsers)
+                    {
+                        if (aUser.Email == emailEntry.Text && aUser.Password == passwordEntry.Text)
+                        {
+                            isCorrectCredentials = true;
+                            App.loggedUser = aUser;
+                        }
+                    }
+                    //var row = data.Where(x => x.Email == emailEntry.Text && x.Password == passwordEntry.Text);
+                    //if (row.Count() > 0)
+                    Console.WriteLine(App.loggedUser.FirstName);
+                    if(isCorrectCredentials == true)
+                    {
+                        DisplayAlert("Success", "Login Success", "Ok");
+                        emailEntry.Text = "";
+                        passwordEntry.Text = "";
+                        Navigation.PushAsync(new HomePage());
+
+                    }
+                    else
+                    {
+                        DisplayAlert("Failed", "Email or Password invalid", "Ok");
+                    }
                 }
             }
+            
+         
         }
     }
 }

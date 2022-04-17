@@ -56,11 +56,6 @@
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/CurrencyExchangeApp.dll
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/bin/iPhoneSimulator/Debug/CurrencyExchangeApp.pdb
-/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.csproj.AssemblyReference.cache
-/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.csproj.CoreCompileInputs.cache
-/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.csproj.CopyComplete
-/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.exe
-/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.pdb
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/actool/_PartialAppManifest.items
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/actool/_BundleResourceWithLogicalName.items
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/actool/_ProcessedImageAssetsPath.items
@@ -72,3 +67,8 @@
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/_ProcessedBundleResourcesPath.items
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/_ProcessedContentPath.items
 /Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 11-15.2/optimized/
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.csproj.AssemblyReference.cache
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.csproj.CoreCompileInputs.cache
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.csproj.CopyComplete
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.exe
+/Users/matheuscadena/Documents/lasalle/multiPlat/CurrencyExchangeApp/CurrencyExchangeApp.iOS/obj/iPhoneSimulator/Debug/CurrencyExchangeApp.iOS.pdb

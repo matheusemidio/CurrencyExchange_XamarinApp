@@ -19,6 +19,7 @@ namespace CurrencyExchangeApp.Model
 
         [MaxLength(250)]
         public string Password { get; set; }
+
     }
 
 }

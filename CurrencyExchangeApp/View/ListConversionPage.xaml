@@ -6,13 +6,17 @@
        <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="4*" />
+            <RowDefinition Height="*" />
+            
+            <!--<RowDefinition Height="*" />
             <RowDefinition Height="2*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
             <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-
+            <RowDefinition Height="*" />-->
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
@@ -33,24 +37,45 @@
         <!--Mark: Currencies-->
         <BoxView Grid.Row="2"
                  Color="White"
-                 Grid.ColumnSpan="2"/>
-        <ListView WidthRequest="300"
+                 Grid.ColumnSpan="2"
+                 HeightRequest="600"
+                 />
+        <ListView WidthRequest="400"
                   Grid.ColumnSpan="2"
                   x:Name="lvCurrencies"
-                  HeightRequest="200"
                   Grid.Row="2"
                   HorizontalOptions="Center"
                   VerticalOptions="Center"
                   BackgroundColor="LightBlue"
                   >
+
+            <ListView.Header>
+                 <StackLayout Orientation="Horizontal">
+                    <Label Text="From" TextColor="White" BackgroundColor="Black" Margin="20,10,10,10"/>
+                    <Label Text="Amount" TextColor="White" BackgroundColor="Black" Margin="20,10,10,10"/>
+                    <Label Text="To" TextColor="White" BackgroundColor="Black" Margin="20,10,10,10"/>
+                    <Label Text="Rate" TextColor="White" BackgroundColor="Black" Margin="20,10,10,10"/>
+                    <Label Text="Value" TextColor="White" BackgroundColor="Black" Margin="20,10,10,10"/>
+                </StackLayout>
+            </ListView.Header>
+
             <ListView.ItemTemplate >
                 <DataTemplate>
-                    <TextCell Text="{Binding }"/>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal" >
+                            <Label Text="{Binding FromCurrency}" Margin="30,10,10,10"/>
+                            <Label Text="{Binding Amount}" Margin="30,10,10,10"/>
+                            <Label Text="{Binding ToCurrency}" Margin="30,10,10,10"/>
+                            <Label Text="{Binding Rate}" Margin="30,10,10,10"/>
+                            <Label Text="{Binding Value}" Margin="10,10,10,10"/>
+                        </StackLayout>
+                    </ViewCell>
+                    
+                       
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
 
-        
 
 
     </Grid>
